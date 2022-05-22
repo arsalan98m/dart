@@ -8,7 +8,7 @@ void main() {
   print('list: $list');
   print('copy1: $copy1');
 
-  final copy2 = [...list]; // copy all values
+  final copy2 = [...list];
   // only copy2 is modifed
   copy2[2] = 4;
   print('list: $list');
